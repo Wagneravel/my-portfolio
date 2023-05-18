@@ -82,6 +82,9 @@ export const Home = (): JSX.Element => {
               >
                 Acessar perfil no LinkedIn
               </Button>
+              <Text as="p" type="body1" color="grey2">
+              About me: Empreendedor com experiência em liderança e resolução de problemas. Decidi fazer uma transição de carreira para a área de tecnologia e entrei na Kenzie Academy, onde desenvolvi habilidades em Python, JavaScript, React e Node.js. Além das habilidades técnicas, minha experiência como líder de equipe em restaurantes me proporcionou habilidades interpessoais valiosas. Estou pronto para enfrentar desafios e contribuir com soluções inovadoras, trabalhando em colaboração para impulsionar o sucesso da equipe.
+              </Text>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
               <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
