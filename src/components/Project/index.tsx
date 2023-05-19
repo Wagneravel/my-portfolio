@@ -10,7 +10,7 @@ import { Text } from "@/styles/Text";
 import { useEffect, useState } from "react";
 import { FaGithub, FaShare } from "react-icons/fa";
 import { userData } from "@/utils/userData";
-
+import { SiVercel } from "react-icons/si";
 interface ReposType {
   id: number;
   name: string;
@@ -79,6 +79,12 @@ export const Project = (): JSX.Element => {
                 <FaShare /> Aplicação
               </ProjectLink>
             )}
+          </ProjectLinks>
+          <ProjectLinks>
+            <ProjectLink target="_blank" href={"https://www.vercel.com/"}>
+              <SiVercel /> Demo
+            </ProjectLink>
+            
           </ProjectLinks>
         </ProjectWrapper>
       ))}
