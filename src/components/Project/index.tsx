@@ -75,16 +75,10 @@ export const Project = (): JSX.Element => {
               <FaGithub /> Github Code
             </ProjectLink>
             {repository.homepage && (
-              <ProjectLink target="_blank" href={`https://${repository.homepage}`}>
-                <FaShare /> Aplicação
+              <ProjectLink target="_blank" href={repository.homepage}>
+                <SiVercel /> Aplicação
               </ProjectLink>
             )}
-          </ProjectLinks>
-          <ProjectLinks>
-            <ProjectLink target="_blank" href={"https://www.vercel.com/"}>
-              <SiVercel /> Demo
-            </ProjectLink>
-            
           </ProjectLinks>
         </ProjectWrapper>
       ))}
